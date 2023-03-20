@@ -5,7 +5,7 @@ const Registration=require('./schema');
 var bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
 
-mongoose.connect('mongodb+srv://:@cluster0.uh6dubm.mongodb.net/?retryWrites=true&w=majority', 
+mongoose.connect('hi', 
 {
   useNewUrlParser: true,
   useUnifiedTopology: true,
