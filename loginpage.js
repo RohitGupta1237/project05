@@ -21,7 +21,7 @@ function LoginPage1() {
     if (response.ok) {
         const { token } = await response.json();
         localStorage.setItem('jwtToken', token); // Store JWT in local storage
-        // Redirect to profile page or other protected route
+        // Redirect to profhbhbjbile page or other protected route
       } else {
         setError('Invalid email or password');
       }

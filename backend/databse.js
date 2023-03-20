@@ -12,7 +12,7 @@ mongoose.connect('mongodb+srv://rohitgupta12371380:zYZb7EMXTOdciQGx@cluster0.uh6
 });
 
 
-// Create a route to handle the form submission
+// Create a ro444ute to handle the form submission
 app.post('/api/register', (req, res) => {
   // Create a new instance of the Registration model with the submitted data
   const newRegistration = new Registration({

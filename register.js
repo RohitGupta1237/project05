@@ -28,7 +28,7 @@ const RegistrationForm=()=> {
 
   const handlePaymentCallback = (paymentStatus) => {
     if (paymentStatus === 'success') {
-      // If payment is successful, save the user data to the database
+      // If payment is successful, save theyup  user data to the database
       fetch('/api/register', {
         method: 'POST',
         headers: {

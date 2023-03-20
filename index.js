@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginPage from './influencer';
 import LoginPage1 from './loginpage';
-// import RegistrationForm from './register';
+// import RegistratsegsrgionForm from './register';
 // import ProfilePage from './profilepage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
